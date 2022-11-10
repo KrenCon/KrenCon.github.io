@@ -121,6 +121,7 @@
 	position:relative;
 	text-decoration: none;
 	border-bottom: 0.5px dotted black;
+    
 }
 .tooltip .tip_link{
 	color: white;
@@ -137,6 +138,7 @@
 	left: auto;
 	opacity: 0;
 	transition: opacity 0.5s;
+    
 }
 .tooltip:hover .tip_link{
 	height: auto;
