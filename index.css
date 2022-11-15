@@ -86,9 +86,7 @@
 	.nav ul li{
 		font-size: 0.9em;
 	}
-	.portrait{
-		height: 100px;
-	}
+
 	/*
 	#p2 .image img{
 	display: none;
@@ -148,6 +146,7 @@
 
 .bar{
 	padding: 10px;
+    margin: -5px;
 	width: 100%; 
 }
 a{
@@ -201,7 +200,7 @@ div.setting ion-icon{
 
 .nav ul li a:hover {
 	background: #1e90ff;
-	color: white;
+	color: rebeccapurple;
 }
 
 .nav ul li a ion-icon{
@@ -209,4 +208,18 @@ div.setting ion-icon{
 	margin-right: 5px;
 	font-size: 1.0em;
 	transition: linear 0.5s;
+}
+
+a:link, a:visited{
+    color: blue;
+    text-decoration: none;
+}
+ a:hover{
+    color: rebeccapurple;
+    text-decoration: none;
+}
+
+ a:active{
+    color: blue;
+    text-decoration: none;
 }
