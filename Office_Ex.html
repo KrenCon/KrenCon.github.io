@@ -140,6 +140,7 @@ office theme also uses <input type="text" id="blank" name="blank" value="verbal 
 			Copyright 2022 © EngReading
 		</div>
 		<script>
+            //Hàm cho cho điểm theo %
             function check(){ 
                 var a = new Array();
                 let cnt = 0;
@@ -189,7 +190,7 @@ office theme also uses <input type="text" id="blank" name="blank" value="verbal 
                 return tr/cnt;
             }
             
-            
+            //Hàm ẩn/hiển thị đáp án
 			function myFunction(){
 				var x = document.getElementById('p2');
 				if (x.style.visibility === 'visible'){
@@ -201,14 +202,7 @@ office theme also uses <input type="text" id="blank" name="blank" value="verbal 
                     alert("Your point: "+ Math.floor(check() *100)+ "%");
                 }
 			}
-			//    function resizeButton(){
-			//        var y = document.getElementById('b');
-			//        if (x === x){
-			//            x.style.opacity = '0.7';
-			//            x.style.cursor = 'not-allowed';
-			//            x.style.width = '95%';
-			//        }
-			//    }
+
 		</script>
 	</body>
 
